@@ -21,14 +21,29 @@ nav {
 }
 
 nav * {
-    display: inline;
+    display: inline-flex;
 }
 
 nav li {
     margin: 20px;
     
+    padding-left: 30px;
+    padding-right: 30px;
+    
+   
+    
 }
 
 nav li:hover {
-    background-color: blue;
+    background-color: green;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navitems {
+    font-size: 30px;
 }
